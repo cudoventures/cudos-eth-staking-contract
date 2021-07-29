@@ -1,0 +1,31 @@
+SPI1:This function can only be called once, and has already been called
+SPI2:Service Provider cannot be zero address
+SPI3:Cudos token cannot be zero address
+SPF1:Fee percentage must be greater or equal to the minimum Service Provider fee
+SPC1:Only Service Provider
+SPC2:Service Provider not setup
+SPC3:Only Service Provider manager
+SPC4:Not a Service Provider method
+SPHL:Service Provider has left
+SPC6:Amount cannot be 0
+SPC7:Service Provider already set up
+ECR1:Exited Service Provider cannot reenter
+FP2:Fee percentage must be between zero and 100%
+SPU1:Unknown Service Provider
+CNB0:Amount cannot be 0
+PSD:Contract is paused
+OWL:Only whitelisted
+OA:Only admin
+SPW3:Unbonding period has not yet passed
+SRW1:Amount exceeds balance
+SPW5:Minimum staking period has not yet passed
+IAP:Invalid allocation point
+PAA:Programme is already active
+SPS1:Exceeds maximum staking allowed for a Service Provider
+SPE1:Service Provider has not exited
+SPW1:No pending withdrawal
+SPW2:No withdrawal request in flight
+SPW4:Amount exceeds delegated stake
+SPW7:Remaining stake for a Service Provider cannot be under the minimum value
+OASM:Only authorised smart contract
+SRG1:Recipient is zero address
