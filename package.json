@@ -1,0 +1,62 @@
+{
+  "name": "cudos-token",
+  "version": "1.0.0",
+  "description": "Cudos Smart Contracts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "test-with-gas": "REPORT_GAS=true npx hardhat test --network localhost",
+    "coverage": "npx hardhat coverage",
+    "fix": "yarn run standard --fix"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.4",
+    "@openzeppelin/test-helpers": "^0.5.12",
+    "chai": "^4.3.4",
+    "coveralls": "^3.0.9",
+    "hardhat-contract-sizer": "^2.0.3",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "standard": "^16.0.3"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect",
+      "artifacts",
+      "web3",
+      "contract"
+    ]
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-solhint": "^2.0.0",
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.2.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.1",
+    "hardhat": "^2.4.3",
+    "hardhat-gas-reporter": "^1.0.4",
+    "prompt-sync": "^4.2.0",
+    "solidity-coverage": "^0.7.16",
+    "web3": "1.4.0"
+  }
+}
